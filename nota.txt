@@ -11,3 +11,10 @@
  >npx tsc index.ts --watch (faz com que o '.js' imite o '.ts')
  >npx tsc --help (mostra as opções de configuração)
  >npx tsc --init (criar um arquivo de configurações)
+
+-configurações (tsconfig)
+ >Descomentar as linhas ("outDir": "./") e ("rootDir": "./")
+ >Adicionar './dist' no 'outDir' e './src' no rootDir
+ >Criar os diretórios dist e src
+ >Colocar o 'index.ts' dentro do diretório 'src' e o 'index.js' no diretório 'dist'
+ >Adicionar ( ,"include": ["src"] ) no final do arquivo tsconfig
