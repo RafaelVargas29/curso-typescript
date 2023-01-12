@@ -37,9 +37,10 @@ const cassiane: User = {
 
 //Alias definido para uma variável
 type Sizes = "12px" | "16px" | "24px";
-const small: Sizes = "12px";
+const smalll: Sizes = "12px";
 const normal: Sizes = "16px";
 const large: Sizes = "24px";
+
 
 
 
