@@ -11,6 +11,8 @@
  >npx tsc index.ts --watch (faz com que o '.js' imite o '.ts')
  >npx tsc --help (mostra as opções de configuração)
  >npx tsc --init (criar um arquivo de configurações)
+ >npm i ts-node (pacote que permite excutar typescript no node)
+ >npx ts-node arquivo.ts (executa o arquivo '.ts' no node (depois de innstalado o pacote 'npm i ts-node'))
 
 -configurações (tsconfig)
  >Descomentar as linhas ("outDir": "./") e ("rootDir": "./")
