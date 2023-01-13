@@ -19,3 +19,6 @@ let Rafael: UserAdmin = {
     isAdmin: true,
     level: "coordenator"
 }
+
+//apenas para não dar conflito com outras variáveis de mesmo nome em outros arquivos
+export default 1;

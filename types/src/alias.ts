@@ -8,6 +8,7 @@ const teste2 = add2(10);
 console.log(add2(10));
 
 //É uma variável que armazena tipos para que os mesmos sejam utilizados de forma mais simples como um conjunto
+//É recomendado que se inicie com letra maiúscula
 type testeAlias = number | string | boolean;
 
 let teste3: testeAlias;
